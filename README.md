@@ -17,3 +17,31 @@ A lightweight TypeScript utility to validate uploaded file content using its buf
 ```bash
 npm install
 ```
+
+Or if used as a library:
+
+```bash
+npm install your-github-org/file-type-validator-ts
+```
+
+## 🚀 Usage
+
+1. Validate a file uploaded from a form
+
+Use with Express & Multer:
+
+```bash
+import { validateFileBuffer } from "./src/validator";
+
+app.post("/upload", upload.single("file"), (req, res) => {
+  const result = validateFileBuffer(req.file.buffer, req.file.originalname);
+  res.json(result);
+});
+```
+
+## 🧪 Supported File Types
+
+- Images: jpg, jpeg, png, gif, bmp, tiff, webp, heic
+- Documents: pdf, doc, docx, xls, xlsx, pptx, rtf, txt
+- Audio/Video: mp3, wav, mp4
+- Archives: zip, rar, 7z, gz
