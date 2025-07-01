@@ -1,6 +1,6 @@
 # File Type Validator (TypeScript)
 
-![npm](https://img.shields.io/npm/v/file-type-validator?color=blue) ![build](https://img.shields.io/badge/build-passing-brightgreen) ![license](https://img.shields.io/npm/l/file-type-validator)
+![npm](https://img.shields.io/npm/v/file-type-validator-ts?color=blue) ![build](https://img.shields.io/badge/build-passing-brightgreen) ![license](https://img.shields.io/npm/l/file-type-validator-ts)
 
 A lightweight TypeScript utility to validate uploaded file content using its buffer. Ensures that the actual content type (magic number) of the file matches its declared file extension.
 
@@ -17,7 +17,7 @@ A lightweight TypeScript utility to validate uploaded file content using its buf
 ## 📦 Installation
 
 ```bash
-npm install file-type-validator
+npm install file-type-validator-ts
 ```
 
 Or if used as a library:
