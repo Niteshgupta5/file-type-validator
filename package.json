@@ -1,0 +1,24 @@
+{
+  "name": "file-type-validator-ts",
+  "version": "1.0.0",
+  "description": "Validates file extension against its actual buffer-based content type in TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Nitesh Gupta",
+  "license": "MIT",
+  "keywords": [
+    "file",
+    "upload",
+    "buffer",
+    "validation",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
