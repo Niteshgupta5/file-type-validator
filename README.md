@@ -1,5 +1,7 @@
 # File Type Validator (TypeScript)
 
+![npm](https://img.shields.io/npm/v/file-type-validator?color=blue) ![build](https://img.shields.io/badge/build-passing-brightgreen) ![license](https://img.shields.io/npm/l/file-type-validator)
+
 A lightweight TypeScript utility to validate uploaded file content using its buffer. Ensures that the actual content type (magic number) of the file matches its declared file extension.
 
 ## ✨ Features
@@ -15,7 +17,7 @@ A lightweight TypeScript utility to validate uploaded file content using its buf
 ## 📦 Installation
 
 ```bash
-npm install
+npm install file-type-validator
 ```
 
 Or if used as a library:
@@ -26,7 +28,7 @@ npm install your-github-org/file-type-validator-ts
 
 ## 🚀 Usage
 
-1. Validate a file uploaded from a form
+- Validate a file uploaded from a form
 
 Use with Express & Multer:
 
@@ -41,7 +43,43 @@ app.post("/upload", upload.single("file"), (req, res) => {
 
 ## 🧪 Supported File Types
 
-- Images: jpg, jpeg, png, gif, bmp, tiff, webp, heic
-- Documents: pdf, doc, docx, xls, xlsx, pptx, rtf, txt
-- Audio/Video: mp3, wav, mp4
-- Archives: zip, rar, 7z, gz
+📄 Document Files
+
+- pdf
+- doc, docx
+- dot, dotx
+- rtf
+- txt, log, csv, tsv, sql, xml, json, ps, tex, md, yml
+- ppt, pptx, pps, ppsx
+- xls, xlsx, xlsm, xlt, xltx, xltm
+- odt, ods
+- epub, mobi, azw, azw3
+- indd, wps, wpd, psd, ai
+
+🖼 Image Files
+
+- jpg, jpeg, png, bmp, gif, webp, ico, svg, heic, heif
+
+🎧 Audio Files
+
+- mp3, m4a, aac, ogg
+
+🎥 Video Files
+
+- mp4, mov, m4v, webm, wmv, avi, 3gp, 3g2
+
+📦 Compressed & Archive Files
+
+- zip, rar, gz, 7z, tar, deb, apk, jar
+
+🗃 Database Files
+
+- sqlite, db, mdb
+
+🧪 Code Files
+
+- js, ts, php, sh, patch
+
+💻 Executables
+
+- exe
