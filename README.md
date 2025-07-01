@@ -20,6 +20,8 @@ A lightweight TypeScript utility to validate uploaded file content using its buf
 npm install file-type-validator-ts
 ```
 
+NPM package: [file-type-validator](https://www.npmjs.com/package/file-type-validator)
+
 ## 🚀 Usage
 
 - Validate a file uploaded from a form
