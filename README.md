@@ -20,12 +20,6 @@ A lightweight TypeScript utility to validate uploaded file content using its buf
 npm install file-type-validator-ts
 ```
 
-Or if used as a library:
-
-```bash
-npm install your-github-org/file-type-validator-ts
-```
-
 ## 🚀 Usage
 
 - Validate a file uploaded from a form

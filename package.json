@@ -1,6 +1,6 @@
 {
   "name": "file-type-validator-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Validates file extension against its actual buffer-based content type in TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
